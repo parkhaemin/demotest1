@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.Demo1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-16T15:09:57" hostname="DESKTOP-3RTPM5P" time="1.726">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.Demo1ApplicationTests" time="1.726"/>
+  <system-out><![CDATA[00:09:53.534 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.Demo1ApplicationTests]: Demo1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:09:53.800 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.Demo1Application for test class com.example.demo.Demo1ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2024-11-17T00:09:54.733+09:00  INFO 1892 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Starting Demo1ApplicationTests using Java 17.0.11 with PID 1892 (started by User in C:\demo1)
+2024-11-17T00:09:54.749+09:00  INFO 1892 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-11-17T00:09:57.203+09:00  INFO 1892 --- [demo1] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-17T00:09:57.941+09:00  INFO 1892 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Started Demo1ApplicationTests in 3.767 seconds (process running for 6.395)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
