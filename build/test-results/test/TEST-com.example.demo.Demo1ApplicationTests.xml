@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.demo.Demo1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-17T01:42:04" hostname="DESKTOP-3RTPM5P" time="2.976">
+<testsuite name="com.example.demo.Demo1ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-17T02:36:13" hostname="DESKTOP-3RTPM5P" time="3.128">
   <properties/>
-  <testcase name="contextLoads()" classname="com.example.demo.Demo1ApplicationTests" time="2.976"/>
-  <system-out><![CDATA[10:41:53.644 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.Demo1ApplicationTests]: Demo1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-10:41:54.257 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.Demo1Application for test class com.example.demo.Demo1ApplicationTests
+  <testcase name="contextLoads()" classname="com.example.demo.Demo1ApplicationTests" time="3.128"/>
+  <system-out><![CDATA[11:36:05.273 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.demo.Demo1ApplicationTests]: Demo1ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:36:05.792 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.demo.Demo1Application for test class com.example.demo.Demo1ApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,10 +14,10 @@
 
  :: Spring Boot ::                (v3.3.5)
 
-2024-11-17T10:41:56.721+09:00  INFO 2872 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Starting Demo1ApplicationTests using Java 17.0.11 with PID 2872 (started by User in C:\demo1)
-2024-11-17T10:41:56.737+09:00  INFO 2872 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
-2024-11-17T10:42:03.486+09:00  INFO 2872 --- [demo1] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2024-11-17T10:42:04.524+09:00  INFO 2872 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Started Demo1ApplicationTests in 9.358 seconds (process running for 15.643)
+2024-11-17T11:36:07.482+09:00  INFO 11252 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Starting Demo1ApplicationTests using Java 17.0.11 with PID 11252 (started by User in C:\demo1)
+2024-11-17T11:36:07.497+09:00  INFO 11252 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-11-17T11:36:12.126+09:00  INFO 11252 --- [demo1] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2024-11-17T11:36:13.208+09:00  INFO 11252 --- [demo1] [    Test worker] com.example.demo.Demo1ApplicationTests   : Started Demo1ApplicationTests in 6.729 seconds (process running for 12.037)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
